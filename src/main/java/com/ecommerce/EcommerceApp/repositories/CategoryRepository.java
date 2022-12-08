@@ -1,0 +1,8 @@
+package com.ecommerce.EcommerceApp.repositories;
+
+import com.ecommerce.EcommerceApp.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Integer> {
+
+}
